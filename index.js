@@ -6,9 +6,14 @@ console.log("teste")
 Crie um programa que fale para ela:
 Olá Bianca, seja bem vinda!
 
-Dica: deixe o nome de Bianca guardada em uma variável.
+Dica: deixe o nome de Bianca guardada em uma variável.*/
 
-Aqui veremos concatenação. O que é isso?
+let novoAluno = "Bianca";
+console.log("Olá", novoAluno, "seja bem vinda!")
+
+
+
+/*Aqui veremos concatenação. O que é isso?
 Simplesmente juntar dois valores com sinal de +.
 Exemplo: 
 
