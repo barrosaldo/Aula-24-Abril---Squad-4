@@ -1,4 +1,3 @@
-console.log("teste")
 
 /*
 
@@ -10,8 +9,6 @@ Dica: deixe o nome de Bianca guardada em uma variável.*/
 
 let novoAluno = "Bianca";
 console.log("Olá", novoAluno, "seja bem vinda!")
-
-
 
 /*Aqui veremos concatenação. O que é isso?
 Simplesmente juntar dois valores com sinal de +.
@@ -25,15 +22,19 @@ RESULTADO FINAL: Bob tem 5 anos.
 atenção: atente aos espaços na frase.
 
 Entrada de Dados:
-valor da variável com nome da aluna
+valor da variável com nome da aluna*/
+let nomeAluno = "Carolina";
 
-Processamento:
-valor de uma variável com o resultado final concatenando o nome mais a frase.
+/*Processamento:
+valor de uma variável com o resultado final concatenando o nome mais a frase.*/
+let idadeAluno = 23;
+let resultado = nomeAluno + " tem " + idadeAluno + " anos. "
 
-Saída:
-valor da variável com resultado final no console
+/*Saída:
+valor da variável com resultado final no console*/
+console.log(resultado)
 
-====================================================
+/*====================================================
 */
 
 /*
