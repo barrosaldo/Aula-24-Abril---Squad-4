@@ -152,3 +152,8 @@ Saída:
 Exibir para o cliente o valor final do emprestimo e o de cada parcela
 
 */
+let nome = "Bianca";
+let mensagem = "Olá " + nome + ", seja bem-vinda!";
+console.log(mensagem);
+
+
