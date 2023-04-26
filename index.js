@@ -34,26 +34,30 @@ let resultado = nomeAluno + " tem " + idadeAluno + " anos. "
 valor da variável com resultado final no console*/
 console.log(resultado)
 
-/*====================================================
-*/
+//====================================================
 
-/*
-2 - João comecou a trabalhar como desenvolvedor mas precisa de comprar um
+
+
+/*2 - João comecou a trabalhar como desenvolvedor mas precisa de comprar um
 computador melhor. Achou um no preço de R$4.500,00 que é o valor que pode gastar
 no momento. Se ele comprar online vai ter um desconto de 20%.
-Calcule o preço final que João pagará com o desconto.
+Calcule o preço final que João pagará com o desconto.*/
 
-Entrada:
-valor inicial do computador
+//Entrada:
+//valor inicial do computador
+let valorInicial = 4500
 
-Processamento:
-Calcular o desconto no valor inicial
+//Processamento:
+//Calcular o desconto no valor inicial
+let valorDesconto = 900
 
-Saída:
-Resultado do preço final no console.
+//Saída:
+//Resultado do preço final no console.
+let precoFinal = valorInicial-valorDesconto
+console.log("O preço final é " + precoFinal )
 
-====================================================
-*/
+//====================================================
+
 
 /*
 3- Ada Lovelace criou um novo programa muito importante e tem que compartilhar o 
@@ -67,18 +71,26 @@ obs: a imagem da criptografia está na pasta imagens.
 Primeiro passo:
 Cifre o usuário e coloque o resultado em uma variável usuarioCifrado. 
 “ada@gmail.com”
-obs: @ e . não precisam ser codificados. 
+obs: @ e . não precisam ser codificados. */
 
-Segundo passo:
+let usuarioCifrado = "dgd@jpalo.frp";
+
+
+/*Segundo passo:
 Decifre a senha abaixo e declare em uma variável senhaDecifrada
-“D VHQKA GR EDQFR H MDYDVFULSW”
+“D VHQKD GR EDQFR H MDYDVFULSW”*/
 
-Terceiro passo:
+let senhaDecifrada = "A senha do banco é javascript"
+
+/*Terceiro passo:
 Declare em uma variável a concatenação da frase e faça aparecer no console o resultado das variáveis:
-“O usuáriol é ???? e a senha é ??? “
+“O usuáriol é ???? e a senha é ??? “*/
 
-====================================================
-*/
+let resolucao = "O usuario é: " + usuarioCifrado + " e a senha é: " + senhaDecifrada;
+console.log(resolucao) 
+
+//====================================================
+
 
 /*
 4 - Elabore um programa que ajude um restaurante a calcular o valor final
@@ -86,16 +98,22 @@ Declare em uma variável a concatenação da frase e faça aparecer no console o
  da refeição e a taxa de entrega. 
 
 Entrada de dado: 
-O valor da conta de 150 R$
+O valor da conta de 150 R$*/
 
-Processamento :
-Calcular a conta junto com o valor da entrega entrega para o endereço do cliente: 18 R$
+let valorRefeicao = 150;
+let taxaEntrega = 18;
 
-Saída: 
-Exibir para o cliente o custo total da conta juntamente com a entrega. 
+/*Processamento :
+Calcular a conta junto com o valor da entrega entrega para o endereço do cliente: 18 R$*/
 
-====================================================
-*/
+let valorTotal = valorRefeicao + taxaEntrega;
+
+/*Saída: 
+Exibir para o cliente o custo total da conta juntamente com a entrega. */
+console.log("O valor total do seu pedido é: " + valorTotal);
+
+//====================================================
+
 
 /*
 5 - "Em qualquer triângulo, a soma das medidas de dois lados é sempre maior que a medida do terceiro."
