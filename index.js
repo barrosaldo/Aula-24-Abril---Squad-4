@@ -121,15 +121,19 @@ console.log("O valor total do seu pedido é: " + valorTotal);
 Levando em consideraçao essa regra elabore um programa que valide se  Um engenheiro precisa construir uma piscina triangular e quer que suas dimensões sejam:  5m, 10m e 9m. Será possível construir essa piscina?
 
 
-Entrada de dado:  Os tamanhos dos segmentos, 5cm, 10cm e 9cm.
+Entrada de dado:  Os tamanhos dos segmentos, 5cm, 10cm e 9cm.*/
 
-Processamento :
-Calcular para cada seguimento a regra para a existencia de um trinagulo. 
+let lado1 = 5;
+let lado2 = 10;
+let lado3 = 9
 
-Saída: Exibir o se pode ou nao ser um triangulo.
+/*Processamento :
+Calcular para cada seguimento a regra para a existencia de um trinagulo. */
 
-====================================================
-*/
+
+/*Saída: Exibir o se pode ou nao ser um triangulo.*/
+
+
 
 /*
 6 - Levando em consideração que existem dois tipos de juros aplicados no mercado 
