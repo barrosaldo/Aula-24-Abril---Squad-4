@@ -7,8 +7,11 @@ Olá Bianca, seja bem vinda!
 
 Dica: deixe o nome de Bianca guardada em uma variável.*/
 
-let novoAluno = "Bianca";
-console.log("Olá", novoAluno, "seja bem vinda!")
+let novoAluno = "Maria"
+console.log("Olá", novoAluno, "bem-vinda!")
+
+
+
 
 /*Aqui veremos concatenação. O que é isso?
 Simplesmente juntar dois valores com sinal de +.
@@ -126,6 +129,7 @@ Entrada de dado:  Os tamanhos dos segmentos, 5cm, 10cm e 9cm.*/
 let lado1 = 5;
 let lado2 = 10;
 let lado3 = 9
+
 
 /*Processamento :
 Calcular para cada seguimento a regra para a existencia de um trinagulo. */
