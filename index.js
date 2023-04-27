@@ -1,4 +1,3 @@
-
 /*
 
 1- Entrou uma nova aluna chamada Bianca na Campinho e precisamos dar boas vindas à ela.
@@ -105,24 +104,21 @@ O valor da conta de 150 R$*/
 
 let valorRefeicao = 150;
 let taxaEntrega = 18;
+console.log(`O valor total da conta é de R$ ${valorTotal.toFixed(2)}.`);
+
+
+
+
 
 /*Processamento :
-Calcular a conta junto com o valor da entrega entrega para o endereço do cliente: 18 R$*/
+Calcular a conta junto com o valor da entrega entrega para o endereço do cliente: 18 R$ */
 
-let valorTotal = valorRefeicao + taxaEntrega;
+
 
 /*Saída: 
 Exibir para o cliente o custo total da conta juntamente com a entrega. */
 
-console.log("Valor total do seu pedido: " + valorTotal);
 
-const valorRefeicao = 150; 
-
-const taxaEntrega = 18; 
-
-const valorTotal = valorRefeicao + taxaEntrega; 
-
-console.log(`Valor total do pedido: R$ 
 
 
 
