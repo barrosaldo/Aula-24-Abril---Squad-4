@@ -113,7 +113,23 @@ let valorTotal = valorRefeicao + taxaEntrega;
 
 /*Saída: 
 Exibir para o cliente o custo total da conta juntamente com a entrega. */
-console.log("O valor total do seu pedido é: " + valorTotal);
+
+console.log("Valor total do seu pedido: " + valorTotal);
+
+const valorRefeicao = 150; 
+
+const taxaEntrega = 18; 
+
+const valorTotal = valorRefeicao + taxaEntrega; 
+
+console.log(`Valor total do pedido: R$ 
+
+
+
+
+
+
+
 
 //====================================================
 
@@ -129,6 +145,8 @@ Entrada de dado:  Os tamanhos dos segmentos, 5cm, 10cm e 9cm.*/
 let lado1 = 5;
 let lado2 = 10;
 let lado3 = 9
+
+
 
 
 /*Processamento :
@@ -147,6 +165,8 @@ R$ 15.000,00 que será  pago em 24 parcelas mensais com juros compostos
 de 1,5% ao mês. Você deve exibir o valor de cada parcela, 
 além do valor total do emprestimo.
 
+
+
 Entrada de dado: 
 Valor inicial do emprestimo: 15.000 R$
 
@@ -158,6 +178,10 @@ onde V é o valor final, P é o principal (ou valor inicial), r é a taxa de jur
 
 Saída:
 Exibir para o cliente o valor final do emprestimo e o de cada parcela
+
+
+
+
 
 */
 let nome = "Bianca";
